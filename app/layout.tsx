@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Progreso Licenciatura - Lenguas Modernas",
+  title: "Lenguas Modernas Ingles",
   description: "Seguimiento del progreso de tu carrera universitaria en Lenguas Modernas (Inglés)",
 };
 
