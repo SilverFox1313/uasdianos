@@ -12,7 +12,7 @@ export async function connectToDatabase() {
     return cached.client;
   }
 
-  const client = new MongoClient(uri, {
+  const client = new MongoClient(uri as string, {
     tlsAllowInvalidCertificates: process.env.NODE_ENV !== 'production',
   });
   await client.connect();
